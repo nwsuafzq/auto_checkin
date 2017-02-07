@@ -28,8 +28,8 @@ while True:
     opener=urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
 
     loging_data=urllib.urlencode([
-        ('email',"804194244@qq.com"),
-        ('passwd',"abcd1234"),
+        ('email',"xx@qq.com"),
+        ('passwd',"xx"),
         ('remember_me','week')])#POST用到的数据
 
     #请求头
